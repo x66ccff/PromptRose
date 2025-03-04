@@ -1,1 +1,0 @@
-Theme configurations here
