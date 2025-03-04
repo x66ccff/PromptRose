@@ -1,5 +1,3 @@
-你说得对，GitHub 的 Markdown 实际上不支持直接在 README.md 中播放视频。让我修改一下，使用 GIF 图片链接或者指向视频的链接方式，这样会更实用：
-
 # Prompt Rose
 
 <img src="icon.png" alt="Prompt Rose Logo" width="128" height="128">
@@ -10,9 +8,7 @@
 </p>
 
 <p align="center">
-  <a href="demo.mp4">
-    <img src="https://img.shields.io/badge/▶️-Watch%20Demo-red?style=for-the-badge" alt="Watch Demo">
-  </a>
+  <img src="demo.gif" alt="Prompt Rose Demo" width="80%">
 </p>
 
 ## 🌹 What is Prompt Rose?
@@ -52,7 +48,7 @@ Designed for Windows platforms, "Prompt Rose" also allows for prompt management 
 - `create_icon.py` - Script used to generate the icon
 - `start.bat` - Launcher script that activates conda environment
 - `.gitignore` - Git ignore file
-- `demo.mp4` - Demonstration video
+- `demo.gif` - Demonstration animation
 
 ## 🔧 Usage
 
@@ -70,9 +66,7 @@ This project is licensed under the MIT License.
 ---
 
 <p align="center">
-  <a href="demo.mp4">
-    <img src="https://img.shields.io/badge/▶️-观看演示-red?style=for-the-badge" alt="观看演示">
-  </a>
+  <img src="demo.gif" alt="Prompt Rose 演示" width="80%">
 </p>
 
 ## 🌹 Prompt Rose 是什么？
@@ -112,7 +106,7 @@ This project is licensed under the MIT License.
 - `create_icon.py` - 用于生成图标的脚本
 - `start.bat` - 激活conda环境的启动脚本
 - `.gitignore` - Git忽略文件
-- `demo.mp4` - 演示视频
+- `demo.gif` - 演示动画
 
 ## 🔧 使用方法
 
@@ -127,6 +121,3 @@ This project is licensed under the MIT License.
 
 本项目采用MIT许可证。
 
----
-
-*由热爱编程的开发者用❤️制作*
