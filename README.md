@@ -139,6 +139,4 @@ If you find this tool useful, consider supporting its development:
   <img src="qrcode.png" alt="支持二维码" height="200px">
 </p>
 
----
 
-*由热爱编程的开发者用❤️制作*
