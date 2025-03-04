@@ -1,3 +1,5 @@
+你说得对，GitHub 的 Markdown 实际上不支持直接在 README.md 中播放视频。让我修改一下，使用 GIF 图片链接或者指向视频的链接方式，这样会更实用：
+
 # Prompt Rose
 
 <img src="icon.png" alt="Prompt Rose Logo" width="128" height="128">
@@ -8,7 +10,9 @@
 </p>
 
 <p align="center">
-  <video src="demo.mp4" autoplay loop muted width="80%"></video>
+  <a href="demo.mp4">
+    <img src="https://img.shields.io/badge/▶️-Watch%20Demo-red?style=for-the-badge" alt="Watch Demo">
+  </a>
 </p>
 
 ## 🌹 What is Prompt Rose?
@@ -66,7 +70,9 @@ This project is licensed under the MIT License.
 ---
 
 <p align="center">
-  <video src="demo.mp4" autoplay loop muted width="80%"></video>
+  <a href="demo.mp4">
+    <img src="https://img.shields.io/badge/▶️-观看演示-red?style=for-the-badge" alt="观看演示">
+  </a>
 </p>
 
 ## 🌹 Prompt Rose 是什么？
