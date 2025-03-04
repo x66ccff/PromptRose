@@ -7,6 +7,10 @@
   <a href="#-prompt-rose-是什么">中文</a>
 </p>
 
+<p align="center">
+  <video src="demo.mp4" autoplay loop muted width="80%"></video>
+</p>
+
 ## 🌹 What is Prompt Rose?
 
 "Prompt Rose" is a sleek productivity tool that, with just a press and hold of the Alt key (customizable), brings up a radial menu similar to those found in the Battlefield game series. Instead of game commands, this menu is filled with quick prompt instructions designed for Large Language Models (LLMs). This eliminates the need for users to search through their notebooks for prompts.
@@ -44,6 +48,7 @@ Designed for Windows platforms, "Prompt Rose" also allows for prompt management 
 - `create_icon.py` - Script used to generate the icon
 - `start.bat` - Launcher script that activates conda environment
 - `.gitignore` - Git ignore file
+- `demo.mp4` - Demonstration video
 
 ## 🔧 Usage
 
@@ -59,6 +64,10 @@ Designed for Windows platforms, "Prompt Rose" also allows for prompt management 
 This project is licensed under the MIT License.
 
 ---
+
+<p align="center">
+  <video src="demo.mp4" autoplay loop muted width="80%"></video>
+</p>
 
 ## 🌹 Prompt Rose 是什么？
 
@@ -97,6 +106,7 @@ This project is licensed under the MIT License.
 - `create_icon.py` - 用于生成图标的脚本
 - `start.bat` - 激活conda环境的启动脚本
 - `.gitignore` - Git忽略文件
+- `demo.mp4` - 演示视频
 
 ## 🔧 使用方法
 
