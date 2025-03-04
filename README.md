@@ -63,6 +63,18 @@ Designed for Windows platforms, "Prompt Rose" also allows for prompt management 
 
 This project is licensed under the MIT License.
 
+## ☕ Support
+
+If you find this tool useful, consider supporting its development:
+
+<p align="center">
+  <a href="https://www.buymeacoffee.com/promptrose" target="_blank">
+    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="50px">
+  </a>
+  <br><br>
+  <img src="qrcode.jpg" alt="Support QR Code" height="200px">
+</p>
+
 ---
 
 <p align="center">
@@ -121,3 +133,18 @@ This project is licensed under the MIT License.
 
 本项目采用MIT许可证。
 
+## ☕ 支持项目
+
+如果您觉得这个工具有用，可以考虑支持它的开发：
+
+<p align="center">
+  <a href="https://www.buymeacoffee.com/promptrose" target="_blank">
+    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="50px">
+  </a>
+  <br><br>
+  <img src="qrcode.jpg" alt="支持二维码" height="200px">
+</p>
+
+---
+
+*由热爱编程的开发者用❤️制作*
