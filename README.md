@@ -72,7 +72,7 @@ If you find this tool useful, consider supporting its development:
     <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="50px">
   </a>
   <br><br>
-  <img src="qrcode.jpg" alt="Support QR Code" height="200px">
+  <img src="qrcode.png" alt="Support QR Code" height="200px">
 </p>
 
 ---
@@ -142,7 +142,7 @@ If you find this tool useful, consider supporting its development:
     <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="50px">
   </a>
   <br><br>
-  <img src="qrcode.jpg" alt="支持二维码" height="200px">
+  <img src="qrcode.png" alt="支持二维码" height="200px">
 </p>
 
 ---
