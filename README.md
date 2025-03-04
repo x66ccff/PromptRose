@@ -68,9 +68,6 @@ This project is licensed under the MIT License.
 If you find this tool useful, consider supporting its development:
 
 <p align="center">
-  <a href="https://www.buymeacoffee.com/promptrose" target="_blank">
-    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="50px">
-  </a>
   <br><br>
   <img src="qrcode.png" alt="Support QR Code" height="200px">
 </p>
@@ -138,9 +135,6 @@ If you find this tool useful, consider supporting its development:
 如果您觉得这个工具有用，可以考虑支持它的开发：
 
 <p align="center">
-  <a href="https://www.buymeacoffee.com/promptrose" target="_blank">
-    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="50px">
-  </a>
   <br><br>
   <img src="qrcode.png" alt="支持二维码" height="200px">
 </p>
