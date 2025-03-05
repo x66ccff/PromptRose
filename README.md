@@ -1,8 +1,8 @@
 # Prompt Rose
 
 [![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![GitHub Stars](https://img.shields.io/github/stars/x66ccff/PromptRose.svg)](https://github.com/x66ccff/PromptRose/stargazers)
 [![GitHub Forks](https://img.shields.io/github/forks/x66ccff/PromptRose.svg)](https://github.com/x66ccff/PromptRose/network)
+[![GitHub Stars](https://img.shields.io/github/stars/x66ccff/PromptRose.svg)](https://github.com/x66ccff/PromptRose/stargazers)
 
 
 <img src="icon.png" alt="Prompt Rose Logo" width="128" height="128">
