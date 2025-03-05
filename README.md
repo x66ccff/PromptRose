@@ -51,6 +51,9 @@ Designed for Windows platforms, "Prompt Rose" also allows for prompt management 
 - `demo.gif` - Demonstration animation
 
 ## 🔧 Usage
+```
+conda env create -f environment.yaml
+```
 
 ### System Tray Options
 
@@ -118,7 +121,9 @@ If you find this tool useful, consider supporting its development:
 - `demo.gif` - 演示动画
 
 ## 🔧 使用方法
-
+```
+conda env create -f environment.yaml
+```
 ### 系统托盘选项
 
 - **显示轮盘**：手动显示提示词轮盘
