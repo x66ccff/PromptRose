@@ -194,7 +194,7 @@ class SettingsDialog(QDialog):
         self.hotkey_combo.addItems(hotkeys)
         
         # 设置当前选中的热键
-        current_hotkey = self.settings.get("hotkey", "alt")
+        current_hotkey = self.settings.get("hotkey", "ctrl")
         index = hotkeys.index(current_hotkey) if current_hotkey in hotkeys else 0
         self.hotkey_combo.setCurrentIndex(index)
         
@@ -523,21 +523,12 @@ def main():
         if settings["paste_method"] == "keyboard":
             try:
                 # 将文本放入Windows剪贴板
-                win32clipboard.OpenClipboard()
-                win32clipboard.EmptyClipboard()
-                win32clipboard.SetClipboardText(prompt_text, win32con.CF_UNICODETEXT)
-                win32clipboard.CloseClipboard()
+                pyperclip.copy(prompt_text)
                 
-                # 给一点时间让应用程序准备好
-                time.sleep(0.1)
+                # 使用定时器延迟执行粘贴操作
+                QTimer.singleShot(500, lambda: keyboard.press_and_release('ctrl+v'))
                 
-                # 模拟Ctrl+V
-                win32api.keybd_event(0x11, 0, 0, 0)  # Ctrl键按下
-                win32api.keybd_event(0x56, 0, 0, 0)  # V键按下
-                win32api.keybd_event(0x56, 0, win32con.KEYEVENTF_KEYUP, 0)  # V键松开
-                win32api.keybd_event(0x11, 0, win32con.KEYEVENTF_KEYUP, 0)  # Ctrl键松开
-                
-                tray_icon.showMessage("提示已粘贴", "提示文本已自动粘贴", QSystemTrayIcon.MessageIcon.Information, 2000)
+                tray_icon.showMessage("提示已粘贴", "提示文本已复制到剪贴板，正在尝试粘贴", QSystemTrayIcon.MessageIcon.Information, 2000)
             except Exception as e:
                 print(f"自动粘贴失败: {e}")
                 pyperclip.copy(prompt_text)
