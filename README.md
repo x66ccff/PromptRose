@@ -12,15 +12,15 @@
   <a href="#-prompt-rose-是什么">中文</a>
 </p>
 
-<p align="center">
-  <img src="demo.gif" alt="Prompt Rose Demo" width="80%">
-</p>
-
 ## 🌹 What is Prompt Rose?
 
 "Prompt Rose" is a sleek productivity tool that, with just a press and hold of the Alt key (customizable), brings up a radial menu similar to those found in the Battlefield game series. Instead of game commands, this menu is filled with quick prompt instructions designed for Large Language Models (LLMs). This eliminates the need for users to search through their notebooks for prompts.
 
 Designed for Windows platforms, "Prompt Rose" also allows for prompt management directly from the right-click system tray.
+
+<p align="center">
+  <img src="demo.gif" alt="Prompt Rose Demo" width="80%">
+</p>
 
 ## ✨ Features
 
@@ -82,15 +82,17 @@ If you find this tool useful, consider supporting its development:
 
 ---
 
-<p align="center">
-  <img src="demo.gif" alt="Prompt Rose 演示" width="80%">
-</p>
+
 
 ## 🌹 Prompt Rose 是什么？
 
 "Prompt Rose"是一款优雅的生产力工具，只需按住Alt键（可自定义），就能呼出一个类似《战地》游戏系列中的辐射状菜单。与游戏命令不同，这个菜单中填充的是专为大型语言模型（LLMs）设计的快速提示指令。这消除了用户在笔记本中搜索提示词的需要。
 
 专为Windows平台设计，"Prompt Rose"还允许通过右键点击系统托盘图标直接管理提示词。
+
+<p align="center">
+  <img src="demo.gif" alt="Prompt Rose 演示" width="80%">
+</p>
 
 ## ✨ 特点
 
