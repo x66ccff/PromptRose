@@ -147,7 +147,7 @@ class PromptWheel(QWidget):
         painter.setFont(font)
         center_rect = QRectF(center.x() - inner_radius * 0.7, center.y() - 15, 
                             inner_radius * 1.4, 30)
-        painter.drawText(center_rect, Qt.AlignmentFlag.AlignCenter, "LLM Prompt轮盘")
+        painter.drawText(center_rect, Qt.AlignmentFlag.AlignCenter, "LLM Prompt")
         
     def confirm_selection(self):
         """确认选择并发出信号"""
