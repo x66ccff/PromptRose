@@ -203,19 +203,19 @@ class SettingsDialog(QDialog):
         
         # 粘贴方式选择
         paste_layout = QHBoxLayout()
-        paste_layout.addWidget(QLabel("粘贴方式:"))
+        paste_layout.addWidget(QLabel("Paste Type:"))
         self.paste_combo = QComboBox()
-        self.paste_combo.addItems(["直接键盘粘贴", "复制到剪贴板"])
+        self.paste_combo.addItems(["keyboard", "clipboard"])
         
         # 设置当前选中的粘贴方式
-        paste_method = self.settings.get("paste_method", "直接键盘粘贴")
-        self.paste_combo.setCurrentIndex(0 if paste_method == "直接键盘粘贴" else 1)
+        paste_method = self.settings.get("paste_method", "keyboard")
+        self.paste_combo.setCurrentIndex(0 if paste_method == "keyboard" else 1)
         
         paste_layout.addWidget(self.paste_combo)
         layout.addLayout(paste_layout)
         
         # 保存按钮
-        save_button = QPushButton("保存")
+        save_button = QPushButton("save")
         save_button.clicked.connect(self.save_settings)
         layout.addWidget(save_button)
         
@@ -376,7 +376,7 @@ def main():
                 # 默认设置
                 return {
                     "hotkey": "alt",
-                    "paste_method": "直接键盘粘贴"
+                    "paste_method": "keyboard"
                 }
         except Exception as e:
             print(f"加载设置失败: {e}")
@@ -520,7 +520,7 @@ def main():
     # 然后将on_prompt_selected函数改为:
     def on_prompt_selected(prompt_text):
         # 根据设置决定粘贴方式
-        if settings["paste_method"] == "直接键盘粘贴":
+        if settings["paste_method"] == "keyboard":
             try:
                 # 将文本放入Windows剪贴板
                 win32clipboard.OpenClipboard()
@@ -550,21 +550,21 @@ def main():
     wheel.prompt_selected.connect(on_prompt_selected)
     
     # 创建菜单项
-    show_action = QAction("显示轮盘", tray_menu)
+    show_action = QAction("View Wheel", tray_menu)
     show_action.triggered.connect(show_wheel)
     tray_menu.addAction(show_action)
     
-    manage_action = QAction("管理Prompt", tray_menu)
+    manage_action = QAction("Manage Prompts", tray_menu)
     manage_action.triggered.connect(show_manager)
     tray_menu.addAction(manage_action)
     
-    settings_action = QAction("设置", tray_menu)
+    settings_action = QAction("Settings", tray_menu)
     settings_action.triggered.connect(show_settings)
     tray_menu.addAction(settings_action)
     
     tray_menu.addSeparator()
     
-    exit_action = QAction("退出", tray_menu)
+    exit_action = QAction("Exit", tray_menu)
     exit_action.triggered.connect(app.quit)
     tray_menu.addAction(exit_action)
     
