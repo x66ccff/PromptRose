@@ -151,4 +151,4 @@ conda env create -f environment.yaml
   <img src="qrcode.png" alt="支持二维码" height="200px">
 </p>
 
-
+[![Star History Chart](https://api.star-history.com/svg?repos=x66ccff/PromptRose&type=Date)](https://star-history.com/#x66ccff/PromptRose&Date)
