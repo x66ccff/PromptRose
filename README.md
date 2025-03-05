@@ -50,7 +50,7 @@ Designed for Windows platforms, "Prompt Rose" also allows for prompt management 
 - `.gitignore` - Git ignore file
 - `demo.gif` - Demonstration animation
 
-## 🔧 Usage
+## 🔧 Installation
 ```
 conda env create -f environment.yaml
 ```
@@ -120,7 +120,7 @@ If you find this tool useful, consider supporting its development:
 - `.gitignore` - Git忽略文件
 - `demo.gif` - 演示动画
 
-## 🔧 使用方法
+## 🔧 安装方法
 ```
 conda env create -f environment.yaml
 ```
