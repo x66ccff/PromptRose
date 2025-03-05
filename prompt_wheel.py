@@ -250,27 +250,27 @@ class PromptManager(QDialog):
         edit_layout = QVBoxLayout()
         
         name_layout = QHBoxLayout()
-        name_layout.addWidget(QLabel("名称:"))
+        name_layout.addWidget(QLabel("name:"))
         self.name_edit = QLineEdit()
         name_layout.addWidget(self.name_edit)
         edit_layout.addLayout(name_layout)
         
-        edit_layout.addWidget(QLabel("提示内容:"))
+        edit_layout.addWidget(QLabel("prompt content:"))
         self.prompt_edit = QTextEdit()
         edit_layout.addWidget(self.prompt_edit)
         
         # 按钮区域
         buttons_layout = QHBoxLayout()
         
-        self.add_btn = QPushButton("添加")
+        self.add_btn = QPushButton("add")
         self.add_btn.clicked.connect(self.add_prompt)
         buttons_layout.addWidget(self.add_btn)
         
-        self.update_btn = QPushButton("更新")
+        self.update_btn = QPushButton("update")
         self.update_btn.clicked.connect(self.update_prompt)
         buttons_layout.addWidget(self.update_btn)
         
-        self.delete_btn = QPushButton("删除")
+        self.delete_btn = QPushButton("delete")
         self.delete_btn.clicked.connect(self.delete_prompt)
         buttons_layout.addWidget(self.delete_btn)
         
@@ -380,7 +380,7 @@ def main():
                 }
         except Exception as e:
             print(f"加载设置失败: {e}")
-            return {"hotkey": "alt", "paste_method": "直接键盘粘贴"}
+            return {"hotkey": "alt", "paste_method": "Paste via keyboard"}
     
     def save_settings(settings):
         try:
