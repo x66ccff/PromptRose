@@ -194,7 +194,7 @@ class SettingsDialog(QDialog):
         self.hotkey_combo.addItems(hotkeys)
         
         # 设置当前选中的热键
-        current_hotkey = self.settings.get("hotkey", "ctrl")
+        current_hotkey = self.settings.get("hotkey", "shift")
         index = hotkeys.index(current_hotkey) if current_hotkey in hotkeys else 0
         self.hotkey_combo.setCurrentIndex(index)
         
