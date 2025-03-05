@@ -137,7 +137,7 @@ conda env create -f environment.yaml
 
 ## ☕ 支持项目
 
-如果您觉得这个工具有用，可以考虑支持它的开发：
+如果您觉得这个工具有用，可以考虑支持开发者：
 
 <p align="center">
   <br><br>
