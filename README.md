@@ -73,15 +73,6 @@ pip install pywin32
 
 This project is licensed under the MIT License.
 
-## ☕ Support
-
-If you find this tool useful, consider supporting its development:
-
-<p align="center">
-  <br><br>
-  <img src="qrcode.png" alt="Support QR Code" height="200px">
-</p>
-
 ---
 
 
@@ -146,13 +137,6 @@ pip install pywin32
 
 本项目采用MIT许可证。
 
-## ☕ 支持项目
 
-如果您觉得这个工具有用，可以考虑支持开发者：
-
-<p align="center">
-  <br><br>
-  <img src="qrcode.png" alt="支持二维码" height="200px">
-</p>
 
 [![Star History Chart](https://api.star-history.com/svg?repos=x66ccff/PromptRose&type=Date)](https://star-history.com/#x66ccff/PromptRose&Date)
