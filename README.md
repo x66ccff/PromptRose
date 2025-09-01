@@ -58,6 +58,8 @@ Designed for Windows platforms, "Prompt Rose" also allows for prompt management 
 ## 🔧 Installation
 ```
 conda env create -f environment.yaml
+conda activate PromptRose
+pip install pywin32
 ```
 
 ### System Tray Options
@@ -130,6 +132,8 @@ If you find this tool useful, consider supporting its development:
 ## 🔧 安装方法
 ```
 conda env create -f environment.yaml
+conda activate PromptRose
+pip install pywin32
 ```
 ### 系统托盘选项
 
