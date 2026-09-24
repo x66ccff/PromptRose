@@ -1,3 +1,5 @@
+
+
 # Prompt Rose
 
 [![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
@@ -43,7 +45,7 @@ Designed for Windows platforms, "Prompt Rose" also allows for prompt management 
 ## 🛠️ Requirements
 
 - Windows 10 or higher
-- Python with PyQt6, keyboard, and pyperclip packages
+- Python with PyQt6, keyboard, pyperclip, and pywin32 packages
 - Conda environment named "promptrose" (used by start.bat)
 
 ## 💻 Files
